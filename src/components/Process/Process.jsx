@@ -13,7 +13,12 @@ import { SlBadge } from "react-icons/sl";
 const Process = () => {
   const renderSteps = steps.map((item) => {
     return (
-      <div className={`flex-1 basis-[300px] ${item.id % 2 === 0 ? "md:-mt-100" : ""}`}>
+      <div
+        key={item.id}
+        className={`flex-1 basis-[300px] ${
+          item.id % 2 === 0 ? "md:-mt-100" : ""
+        }`}
+      >
         <span
           className="flex justify-center items-center w-18 h-18 mx-auto rounded-full text-7xl bg-zinc-800 text-white 
                 outline-[3px] outline-offset-7 outline-zinc-800 outline-dashed"
