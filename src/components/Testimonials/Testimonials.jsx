@@ -12,48 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { FaStar } from "react-icons/fa6";
 
-const review = [
-  {
-    id: 1,
-    image: Customer1,
-    name: "Aarav Sharma",
-    profession: "Chef",
-    rating: 5,
-    para: "Grocerly provides the freshest ingredients! Perfect for my restaurant cooking."
-  },
-  {
-    id: 2,
-    image: Customer2,
-    name: "Priya Verma",
-    profession: "Model",
-    rating: 4,
-    para: "Quality is amazing and packaging is premium. My go-to grocery site!"
-  },
-  {
-    id: 3,
-    image: Customer3,
-    name: "Rohan Das",
-    profession: "Fitness Coach",
-    rating: 5,
-    para: "I rely on Grocerly for clean and organic food. Highly recommended!"
-  },
-  {
-    id: 4,
-    image: Customer4,
-    name: "Neha Gupta",
-    profession: "Nutritionist",
-    rating: 5,
-    para: "Their organic vegetables and fruits are truly top quality."
-  },
-  {
-    id: 5,
-    image: Customer5,
-    name: "Vikram Singh",
-    profession: "Home Chef",
-    rating: 4,
-    para: "Very fresh dairy and meat products. My family loves the quality!"
-  }
-];
+
 
 const Testimonials = () => {
   return (
@@ -120,3 +79,47 @@ const Testimonials = () => {
 };
 
 export default Testimonials;
+
+
+const review = [
+  {
+    id: 1,
+    name: "Emily Jhonson",
+    profession: "Food Blogger",
+    rating: 3,
+    para: "Grocerly has completely changed how I buy groceries. The products are always fresh, well-packed, and arrive earlier than expected. I especially love their organic range—it genuinely feels chemical-free and natural. Their service feels reliable, and I trust them for my family’s daily needs.",
+    image: Customer1,
+  },
+  {
+    id: 2,
+    name: "David Smith",
+    profession: "Chef",
+    rating: 4,
+    para: "As a chef, ingredient quality decides everything—and Grocerly has impressed me consistently. Their vegetables are crisp, herbs are aromatic, and the organic produce tastes incredibly fresh. I can tell proper sourcing and cold-chain logistics are in place. Grocerly makes home cooking feel restaurant-grade.",
+    image: Customer2,
+  },
+  {
+    id: 3,
+    name: "Alya Zahra",
+    profession: "Model",
+    rating: 5,
+    para: "Being a model means staying fit, healthy, and glowing from the inside out—and Grocerly has become my secret partner in that. Their fresh fruits and organic veggies keep my diet clean and vibrant. I love how every item feels premium and thoughtfully sourced. Trusting Grocerly makes maintaining a healthy lifestyle effortless.",
+    image: Customer3,
+  },
+  {
+    id: 4,
+    name: "Carlos Mendes",
+    profession: "Fitness Coach",
+    rating: 5,
+    para: "Grocerly has genuinely changed the way I plan meals for myself and my clients. The freshness is unmatched, and the ingredients feel safe, natural, and nutrient-rich. Their attention to food safety and sourcing helps me guide people with confidence. A perfect partner for anyone serious about fitness",
+    image: Customer4,
+  },
+  {
+    id: 5,
+    name: "Natcha Phongchai",
+    profession: "Nutritionist",
+    rating: 4,
+    para: "As a nutritionist, I pay close attention to the source and freshness of ingredients, and Grocerly has exceeded my expectations every time. Their produce is nutrient-rich, clean, and handled with proper safety. This quality makes it easy for me to recommend healthier meal plans to my patients. Grocerly has become a reliable partner in promoting balanced nutrition.",
+    image: Customer5,
+  },
+];
